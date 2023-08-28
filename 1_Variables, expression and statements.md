@@ -1,12 +1,6 @@
 	
-	[[#1. First python program for BAIT, Arithmetic operators]]
-	[[#2. Assignment statement and variables]]
-	[[#2. Interactive mode and script mode]]
-	[[#3. Arithmetic operators and order of operations]]
-	[[#4. Values and types (Chapter 1.5)]]
-	[[#4. Strings]]
-	[[#5. Comments and Pseudocode]]
-	[[#Summing up]]
+[[#1. First python program for BAIT, Arithmetic operators]]
+
 
 ## 1. First python program for BAIT, Arithmetic operators
 
