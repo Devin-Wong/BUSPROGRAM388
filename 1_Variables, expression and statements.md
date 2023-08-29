@@ -18,14 +18,14 @@ Table of Contents
 - As BAIT student, arithmetic or calculation is important. So instead of using "Hello, World!" as the first python program, let us use python as a calculator.
 - Python provides operators, which are special symbols that represent computations like addition and multiplication.
 - The operators +, -, * , and /  perform addition, subtraction, and multiplication, as in the following examples:
-```python
->>> 10/2
-5
->>> 10 + 2
-12
->>> 10 * 10
-100
-```
+	```python
+	>>> 10/2
+	5
+	>>> 10 + 2
+	12
+	>>> 10 * 10
+	100
+	```
 - Exponentiation. To calculate $6^2+3$
 ```python
 >>> 6**2 + 3
