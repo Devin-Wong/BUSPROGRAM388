@@ -3,17 +3,12 @@
 Table of Contents
 
 [1. First python program for BAIT, Arithmetic operators](#1-first-python-program-for-bait-arithmetic-operators)
-
 [2. Assignment statement  and variables](#2-assignment-statement--and-variables)
 	[Assignment statements](#assignment-statements)
 	[Variable names](#variable-names)
-
 [3. Interactive mode and script mode](#3-interactive-mode-and-script-mode)
-
 [4. Values and types](#4-values-and-types)
-
 [5. Strings](#5-strings)
-
 [Summing up](#summing-up)
 
 
