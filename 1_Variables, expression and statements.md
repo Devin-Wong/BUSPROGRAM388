@@ -38,7 +38,7 @@
 	>>> 2 * 3 ** 2
 	18
 	```
-- That operator `%` or modulo operator may not be very familiar to you. It does not return percentage, but *remainder* after dividing one number from another. 
+- That operator `%` or modulo operator may not be very familiar to you. It does not return a percentage, but *remainder* after dividing one number from another. 
 	```python
 	>>> 10 % 2
 	0
@@ -69,7 +69,7 @@
 **Variable names**
 - Variable names can be as long as you like. They can contain both letters and numbers.
 - But they can’t begin with a number. 
-- It is legal to use uppercase letters, but it is conventional to use only lower case for variables names.
+- It is legal to use uppercase letters, but it is conventional to use only lowercase for variable names.
 - The underscore character, _ , can appear in a name. It is often used in names with multiple words, such as *your_name* or *my_score*.
 - If you give a variable an illegal name, you get a syntax error:
 	```python
@@ -116,11 +116,11 @@
 ## 3. Interactive mode and script mode
 (Chapter 2.4)
 
-**Interactive model**
+**Interactive mode**
 - So far we have run Python in interactive mode, which means that you interact directly with the interpreter.
 - In terminal, type `python` or `python3`, then `enter`. You will be present with `>>>` in the terminal window, where you can then run live, interactive code.
 
-**Script model**
+**Script mode**
 - In VS code, we create a Python file with a filename extension `.py`
 - For example, we create a file `calculater.py`. It contains the following code.
 	```python
@@ -136,7 +136,7 @@
 	50
 	```
 - NOTE: 
-	- Before run `python3` command, you should make your current directory is where the file `calculator.py` is located. If not, use `cd` command to direct it. 
+	- Before running `python3` command, you should make sure your current directory is where the file `calculator.py` is located. If not, use `cd` command to direct it. 
 	- In VS code, you can use go to `file->open folder` to open the folder that you would like to create the file or run the file. Then the terminal current directory will be exact the folder you would like to go to.
 
 ## 4. Values and types 
@@ -160,7 +160,7 @@
 	```
 
 **Float**
-- Floating-point numbers, e.g., `10.0` , belong to `float`.
+- Floating-point numbers, e.g., `10.0`, belong to `float`.
 	```python
 	>>> type(10.0)
 	<class 'float'>>
@@ -208,7 +208,7 @@
 	         ^
 	SyntaxError: invalid syntax
 	```
-- There is an error, invalid syntax. We cannot include *doubt quotation marks* in *doubt quotation marks*.
+- There is an error, an invalid syntax. We cannot include *doubt quotation marks* in *doubt quotation marks*.
 - Solutions
 	```python
 	>>> s = "'Hello!', he said."
