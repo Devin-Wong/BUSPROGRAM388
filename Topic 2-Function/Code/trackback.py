@@ -1,4 +1,3 @@
-
 def main():
     x = 20
     y = 5
@@ -6,7 +5,6 @@ def main():
 
     s = calculation(x, y, z)
     print(s)
-
 
 # create function to calculate (a + b)*c
 def calculation(a, b, c):
@@ -20,53 +18,5 @@ def add(a, b):
     return c
 
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
