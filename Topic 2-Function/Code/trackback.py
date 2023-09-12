@@ -1,4 +1,3 @@
-main()
 
 def main():
     x = 20
@@ -20,7 +19,7 @@ def add(a, b):
     c = a + b
     return c
 
-
+main()
 
 
 
