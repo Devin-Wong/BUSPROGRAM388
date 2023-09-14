@@ -2,16 +2,11 @@
 
 **Table of Contents**
 
-[1. First python program for BAIT, Arithmetic operators](#1-first-python-program-for-bait-arithmetic-operators)
-
-[2. Assignment statement  and variables](#2-assignment-statement--and-variables)
-
-[3. Interactive mode and script mode](#3-interactive-mode-and-script-mode)
-
-[4. Values and types](#4-values-and-types)
-
-[5. Strings](#5-strings)
-
+[1. First python program for BAIT, Arithmetic operators](#1-first-python-program-for-bait-arithmetic-operators)  
+[2. Assignment statement  and variables](#2-assignment-statement--and-variables)  
+[3. Interactive mode and script mode](#3-interactive-mode-and-script-mode)  
+[4. Values and types](#4-values-and-types)  
+[5. Strings](#5-strings)  
 [Summing up](#summing-up)
 
 
@@ -244,6 +239,103 @@
 **String Built-in methods**
 - String Built-in methods: https://docs.python.org/3/library/stdtypes.html#string-methods
 
+
+
+## 6. User input
+- Please run the following codes in script mode.
+- If we would like to say "hello" to someone, here is the code.
+	```python
+	name = "Jin"
+	print("Hello,", name)
+	```
+- It will be useful if we can allow users to input their own name, and make the program more interactive.
+- `input` is a function that takes a prompt as an argument. 
+	```python
+	name = input("What's your name? ")
+	print("Hello,", name)
+	```
+- Now let us do addition.
+	```python
+	x = input("What's x? ")
+	y = input("What's y? ")
+
+	z = x + y
+		
+	print(z)
+	```
+	Output
+	```python
+	What's x? 1
+	What's y? 2
+	12
+	```
+- It seems weird since the answer is expected to be 3. This is because our input from keyboard comes into Python as text. It is treated as type *string*.
+- So we need to convert this input from string to an integer because we do addition. We should so as follows:
+	```python
+	x = input("What's x? ")
+	y = input("What's y? ")
+
+	z = int(x) + int(y)
+		
+	print(z)
+	```
+- In the above program, the function `int()` helps convert string to integer.
+
+## 7. String formatting 
+
+- If we run the following program.
+
+	```python
+	name = 'Jin'
+	print('Hello, ' + name)
+	```
+- In this program, we use `+` operator to concatenate two strings. The output is
+	```python
+	Hello, Jin
+	```
+- It is good. But if we would like to print a string together with an integer, the concatenation operation doesn't work. For example,
+	```python
+	n = 35
+	print("The number of students is " + n)
+	```
+- It generates the following error, which says that Python can only concatenate string (not "int") to string.
+	```
+		print("The number of students is " + n)
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+	TypeError: can only concatenate str (not "int") to str
+	```
+- We may convert int to string by using `str()` function first, then do concatenation, like this
+	```python
+	n = 35
+	n_as_str = str(n)
+	print("The number of students is " + n_as_str)
+	```
+-  Seems good. However, this kind of conversion could be annoying. For example, if we would like to print a sentence with more number of int.
+	```python
+	x = 3
+	y = 4
+
+	z = x + y
+
+	# convert x, y, z to str
+	x_as_str = str(x)
+	y_as_str = str(y)
+	z_as_str = str(z)
+
+	# print
+	print(x_as_str + " plus " + y_as_str + " equals " + z_as_str)
+	```
+- The above program works, but it is really not elegant. First, it is boring to convert all the integers to strings. Second, there are so many `+` symbols that we cannot clearly see what we are printing.
+- Fortunately, in Python 3.6 and above, it gives as the *f-strings*, which make the string formatting much easier. We can do it like this.
+	```python
+	x = 3
+	y = 4
+
+	z = x + y
+
+	print(f"{x} plus {y} equals {z}.")
+	```
+
 ## Summing up
 - Arithmetic operators
 - Variables
@@ -251,6 +343,8 @@
 - `.py` file
 - Types, int, float, and string
 - String concatenation and repetition
+- User input
+- f-strings
 
 
 
