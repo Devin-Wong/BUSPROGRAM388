@@ -143,22 +143,22 @@ Table of Contents
 	Hello, Nancy
 	```
 - In this code, give different values to variable `name`. It will print different name, while it always prints `Hello, `. We type `print("Hello, ", end="")` repeatedly.  So we may create a function such that we can reuse the action.
-```python
-def hello():
-	print("Hello, ", end="")
+		```python
+		def hello():
+			print("Hello, ", end="")
 
-name_1 = "Jin"
-hello()
-print(name_1)
+		name_1 = "Jin"
+		hello()
+		print(name_1)
 
-name_2 = "Mark"
-hello()
-print(name_2)
+		name_2 = "Mark"
+		hello()
+		print(name_2)
 
-name_3 = "Nancy"
-hello()
-print(name_3)
-```
+		name_3 = "Nancy"
+		hello()
+		print(name_3)
+		```
 - Notice that everything under `def hello()` is **indented**. Python is an indented language. Indentation or four spaces.
 - Python is going to treat lines of code that I indent underneath this line as the meaning of this new function.
 
@@ -262,21 +262,21 @@ print(name_3)
 
 **Call a function in another function**
 - We can also call a function in another function. Now suppose we would like to calculate $(x+y)*z$ . For example, we can use the following code. 
-```python
-def add(a, b):
-	c = a + b
-	return c
+	```python
+	def add(a, b):
+		c = a + b
+		return c
 
-def calculation(a, b, c):
-	rst = add(a, b) * c
-	return rst
+	def calculation(a, b, c):
+		rst = add(a, b) * c
+		return rst
 
-x = 10
-y = 5
-z = 3
+	x = 10
+	y = 5
+	z = 3
 
-print(calculation(x, y, z))
-```
+	print(calculation(x, y, z))
+	```
 - In the code, `add` function was called by `calculation` function, and `calculation` function was called by `__main__`, which is a special name for the topmost frame. When you create a variable outside of any function, it belongs to `__main__`.
 
 **Stack diagram**
@@ -284,7 +284,6 @@ print(calculation(x, y, z))
 - Each function is represented by a frame. A frame is a box with the name of a function beside it and the parameters and variables of the function inside it. The stack diagram for the previous example is shown as follows.
 
 	<img src="attachements/funcion_1.png" width="300">
-
 
 **Debugging**
 - If an error occurs during a function call, Python prints the name of the function, the name of the function that called it, and the name of the function that called that, all the way back to `__main__`.
