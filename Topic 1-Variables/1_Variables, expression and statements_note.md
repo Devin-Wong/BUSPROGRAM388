@@ -7,6 +7,8 @@
 [3. Interactive mode and script mode](#3-interactive-mode-and-script-mode)  
 [4. Values and types](#4-values-and-types)  
 [5. Strings](#5-strings)  
+[6. User input](#6-user-input)  
+[7. String formating](#7-string-formatting)  
 [Summing up](#summing-up)
 
 

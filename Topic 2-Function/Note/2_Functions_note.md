@@ -1,29 +1,19 @@
 # 2. Functions
 
-Table of Contents
+Table of Contents  
+[1. Function structure](#1-function-structure)  
+> [1.1 Function](#11-function)  
+> [1.2 Arguments (in `print()`)](#12-arguments-in-print)  
 
-[1. Function structure](#1-function-structure)
+[2. Comments and Pseudocode](#2--comments-and-pseudocode)  
+[3. Create our own function by `def`](#3-create-our-own-function-by-def)  
+> [3.1 First function without arguments](#31-first-function-without-arguments)  
+>[3.2 Function with Arguments](#32-function-with-arguments)  
+>[3.3 Function with default value](#33-function-with-default-value) 
 
-> [1.1 Function](#11-function)
-
->[1.2 Arguments (in `print()`)](#12-arguments-in-print)
-
-[2.  Comments and Pseudocode](#2--comments-and-pseudocode)
-
-[3. Create our own function by `def`](#3-create-our-own-function-by-def)
-
-> [3.1 First function without arguments](#31-first-function-without-arguments)
-
->[3.2 Function with Arguments](#32-function-with-arguments)
-
->[3.3 Function with default value](#33-function-with-default-value)
-
-[4.  Return values](#4--return-values)
-
-[5. Variables and parameters are local](#5-variables-and-parameters-are-local)
-
-[6. Stack diagrams and debugging](#6-stack-diagrams-and-debugging)
-
+[4.  Return values](#4--return-values)  
+[5. Variables and parameters are local](#5-variables-and-parameters-are-local)  
+[6. Stack diagrams and debugging](#6-stack-diagrams-and-debugging)  
 [7. Organizing our code by using `main()`](#7-organizing-our-code-by-using-main)
 
 [Summing up](#summing-up)
