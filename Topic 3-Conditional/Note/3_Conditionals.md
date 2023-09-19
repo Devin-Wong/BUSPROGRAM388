@@ -162,6 +162,7 @@ Table of Contents
 		print("It is a non-positive number.")
 	```
 - Here is how we are providing two `if` statements. First, the first `if` statement is evaluated. Then, the second one is evaluated. The flow of decisions is called "control flow", which can be illustrated as follows.
+
 	<img src="Attachements/Pasted image 20230916133935.png" width="260">
 
 ### `else` statement
