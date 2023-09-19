@@ -92,7 +92,7 @@ Table of Contents
 	False
 	```
 
-**`no` operator**
+**`not` operator**
 - `not` operator negates a boolean expression. `not <boolean expression>` is `True` only is the boolean expression is `False`. 
 - For example,
 	```python
@@ -229,7 +229,7 @@ Table of Contents
 	```
  - The code can be represented as the following diagram.
 
-	<img src="Attachements/Pasted image 20230917104710.png" width="400">
+	<img src="Attachements/if_5-elif2.png" width="400">
 
 ## 5. `and`， `or` in `if` statement
 
