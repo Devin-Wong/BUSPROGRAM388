@@ -98,7 +98,7 @@ Table of Contents
 	```python
 	>>> x = 1
 	>>> not (x > 1)
-	Ture
+	True
 
 	>>> x = 2
 	>>> not (x > 1)
