@@ -312,7 +312,7 @@ Table of Contents
 
 ## Practice questions
 
-1.  Create a function named `is_even`, which returns `True` if inputting an integer; return `False`.
+1.  Create a function named `is_even`, which returns `True` if inputting an even number; return `False`.
 
 2. In a right triangle, the lengths of the sides are $a$, $b$ and the hypotenuse is $c$. Pythagoras theorem says that $a^2 + b^2 = c^2$. Write a function named _check_pythagoras_ that takes parameters, $a$, $b$ and $c$, and checks to see if Pythagoras theorem holds. If it holds, the program should print "Pythagoras theorem is satisfied.". Otherwise, the program print, "No, Pythagoras theorem isn't satisfied."
 
