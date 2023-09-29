@@ -15,7 +15,7 @@ Table of contents
 (Chapter 7.1 & 7.2)
 
 **Reassignment**
-- We mentions assignments at the beginning, where a value can be assigned to a variable. It is done by using the equal sign ($=$).  For example,
+- We mentioned assignments at the beginning, where a value can be assigned to a variable. It is done by using the equal sign ($=$).  For example,
 ```python
 x = 1
 ```
