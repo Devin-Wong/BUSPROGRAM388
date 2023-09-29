@@ -76,10 +76,12 @@ x = 1
 	while i>0:
 		print("Hello")
 	```
-- Run this program. This program really prints "Hello". However, it prints too many "Hello" and will *never stop! *
+- Run this program. This program really prints "Hello". However, it prints too many "Hello" and will _never stop!_
 - You can press `control+c` keys to stop the program, when you get stuck in Python.
 - Let us use the following diagram to show how `while` loops work. 
-	![[loop_1.png|center|350]]
+
+	<img src="Attachments/loop_1.png" width="260">
+
 	- The program examines whether the condition `i>0` is satisfied. If true, it will print "Hello"; stop otherwise. In our program, `i` value is 3, indicating `i>0` is True. So the program will print "Hello". 
 	- After that, it will go back to the condition again to see whether the condition is still satisfied. If True, continue. Then repeat this process over and over again.
 	- You can see the condition `i>0` is always satisfied since `i` value is 3.
@@ -92,7 +94,8 @@ x = 1
 		i = i - 1
 	```
 - It works now. It prints "Hello" three times. The above `while` loops can be expressed using this diagram.
-![[loop_2.png|center|350]]
+
+	<img src="Attachments/loop_2.png" width="260">
 
 
 - Sure, we can change `i=i-1` to `i-=1` (decrement), which makes the program more concise. 
@@ -253,6 +256,10 @@ x = 1
 ## 7. Practice Questions
 
 1. Calculate the sum of  1 to $n$.
-	1. Create a function named `get_number` which returns a positive number. In the function you use `input` function to let user input a positive integer. If user inputs a negative number, reprompt the user with "Please input a positive number: " .
-	2. Create a function named `get_sum` taking a number $n$ and returning the sum of 1 to  $n$.
-	3. Create a `main` function which calls the two functions above to calculate the sum of 1 to $n$.
+	- Create a function named `get_number` which returns a positive number. In the function you use `input` function to let user input a positive integer. If user inputs a negative number, reprompt the user with "Please input a positive number: " .
+	- Create a function named `get_sum` taking a number $n$ and returning the sum of 1 to  $n$.
+	- Create a `main` function which calls the two functions above to calculate the sum of 1 to $n$.
+
+2. Create a function named `get_maximum` taking a list of numbers, which can return the maximum number in the list.
+
+3. Create a function taking a list, which can print the even indices values, i.e., the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
