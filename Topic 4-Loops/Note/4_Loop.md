@@ -126,7 +126,7 @@ x = 1
 	print(numbers)
 	```
 
-**Geting access to the elements**
+**Getting access to the elements**
 - We can get access to the elements in a list by using the indices. Note that the index starts with 0.
 	```python
 	names = ["Jin", "Mark", "Neil"]
