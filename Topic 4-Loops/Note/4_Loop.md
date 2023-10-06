@@ -16,9 +16,9 @@ Table of contents
 
 **Reassignment**
 - We mentioned assignments at the beginning, where a value can be assigned to a variable. It is done by using the equal sign ($=$).  For example,
-```python
-x = 1
-```
+	```python
+	x = 1
+	```
 - It is legal to make more than one assignment to the same variable. A new assignment makes an existing variable refer to a new value.
 	```python
 	x = 1
@@ -255,11 +255,14 @@ x = 1
 
 ## 7. Practice Questions
 
-1. Calculate the sum of  1 to $n$.
+1. Create a function named `get_maximum` taking a list of numbers, which can return the maximum number in the list.
+
+2. Create a function taking a list, which can print the even indices values, i.e., the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
+
+3. Calculate the sum of  1 to $n$.
 	- Create a function named `get_number` which returns a positive number. In the function you use `input` function to let user input a positive integer. If user inputs a negative number, reprompt the user with "Please input a positive number: " .
 	- Create a function named `get_sum` taking a number $n$ and returning the sum of 1 to  $n$.
 	- Create a `main` function which calls the two functions above to calculate the sum of 1 to $n$.
 
-2. Create a function named `get_maximum` taking a list of numbers, which can return the maximum number in the list.
-
-3. Create a function taking a list, which can print the even indices values, i.e., the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
+4. Given a list of numbers, try to print the numbers starting with the first one and stop when the sum of the numbers collected is larger than 100.
+ 
