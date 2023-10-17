@@ -255,7 +255,7 @@
 	Hello, Peter
 	Hello, John
 	```
-4. Create a function, named `find_repetition`, to find out whether there are repetitive letters in a word. For example, For the word "Rutgers", the function returns `True` since the letter 'a' is repeated. (So it means we need to ignore the cases, 'R' is considered as a repetition of 'r'.) For the word "RBS", the function returns `False`.
+4. Create a function, named `find_repetition`, to find out whether there are repetitive letters in a word. For example, For the word "Rutgers", the function returns `True` since the letter 'r' is repeated. (So it means we need to ignore the cases, 'R' is considered as a repetition of 'r'.) For the word "RBS", the function returns `False`.
 
 
 
