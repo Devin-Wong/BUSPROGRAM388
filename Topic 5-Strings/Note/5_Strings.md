@@ -100,7 +100,7 @@
 - `input` function can be used for a user to input a string. But we cannot expect users will cooperate as intended. Hence, we need to either correct or check the input. For example:
 	```python
 	# ask user to input name
-	name = input("Pleaser input your name: ")
+	name = input("Please input your name: ")
 
 	# print output
 	print(f"Hello, {name}!")
@@ -111,7 +111,7 @@
 - We can modify the program to be:
 	```python
 	# ask user to input name
-	name = input("Pleaser input your name: ")
+	name = input("Please input your name: ")
 
 	# Remove white spaces from the string
 	name = name.strip()
@@ -126,7 +126,7 @@
 - We can use `.title()` method to capitalize the first letter of each word.
 	```python
 	# ask user to input name
-	name = input("Pleaser input your name: ")
+	name = input("Please input your name: ")
 
 	# Remove white spaces from the string
 	name = name.strip()
@@ -141,7 +141,7 @@
 - You may be tired of adding methods. You can put the methods together to make the coding more efficient. You can get the same output as the previous code.
 	```python
 	# ask user to input name
-	name = input("Pleaser input your name: ")
+	name = input("Please input your name: ")
 
 	# Remove white spaces from the string and Capitalize the first letter of each word
 	name = name.strip().title()
@@ -152,7 +152,7 @@
 - Or even go further!
 	```python
 	# ask user to input name, Remove white spaces from the string, and Capitalize the first letter of each word
-	name = input("Pleaser input your name: ").strip().title()
+	name = input("Please input your name: ").strip().title()
 
 	# print output
 	print(f"Hello, {name}!")
@@ -161,7 +161,7 @@
 - Similar to `.title()`, we can also use `.upper()` to capitalize all letters in a string.
 	```python
 	# ask user to input name, Remove white spaces from the string, and Capitalize the all letters
-	name = input("Pleaser input your name: ").strip().upper()
+	name = input("Please input your name: ").strip().upper()
 
 	# print output
 	print(f"Hello, {name}!")
