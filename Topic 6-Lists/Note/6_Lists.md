@@ -175,7 +175,7 @@ In this part, we will study more about list, which is a useful and powerful cont
 	```python
 	universities = ['Rutgers', 'NYU', 'Princeton']
 	for i in range(len(universities)):
-		print(names[i])
+		print(universities[i])
 	```
 
 ## 6. List operations
