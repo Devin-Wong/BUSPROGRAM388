@@ -1,4 +1,3 @@
-
 def main():
     s = get_string()
     c = 'W'
