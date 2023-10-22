@@ -1,4 +1,4 @@
-# find out whether there is a particular charactor in a string
+# find out whether there is a particular character in a string
 ## if there is, print the index. 
 ## If there are more than one this charactor, print the first index
 ## If there is not, print -1
