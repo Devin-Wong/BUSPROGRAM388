@@ -1,4 +1,3 @@
-
 def main():
     score = get_score()
     grade = give_grade(score)
