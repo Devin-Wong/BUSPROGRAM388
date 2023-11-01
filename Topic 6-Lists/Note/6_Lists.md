@@ -1,23 +1,5 @@
 # Lists
 
-[1. A list is a sequence](#1-a-list-is-a-sequence)    
-&emsp;[Define a list](#define-a-list)  
-&emsp;[`len()` function](#len-function)  
-&emsp;[List slices](#list-slices)  
-[2. Lists are mutable](#2-lists-are-mutable)  
-[3. List methods](#3-list-methods)  
-&emsp;[`.append()`](#append)  
-&emsp;[`.extend()`](#extend)  
-&emsp;[`.sort()`](#sort)  
-[4. Void and fruitful method/function](#4-void-and-fruitful-methodfunction)  
-[5. Traversing a list](#5-traversing-a-list)  
-[6. List operations](#6-list-operations)  
-&emsp;[`+` operator](#-operator)  
-&emsp;[`*` operator](#-operator)  
-&emsp;[`in` operator](#in-operator)  
-[7. Deleting elements](#7-deleting-elements)
-
-
 Table of Contents
 
 [1. A list is a sequence](#1-a-list-is-a-sequence)  
