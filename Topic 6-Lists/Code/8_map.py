@@ -5,6 +5,7 @@ def square(x):
     return x ** 2
 
 # squares = map(square, l)
+
 squares = map(lambda x: x ** 2, l)
 
 squares = list(squares)
