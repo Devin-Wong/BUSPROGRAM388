@@ -392,7 +392,7 @@ print(positive_numbers)
 	- Create a function which takes an integer, return `True` if the number is a prime number and return `False` otherwise.
 	- Define a list containing a list of numbers
 	- Use `filter` function to obtain the prime numbers in the list and print them.
-	- For example, given a list `[2, 3, 10, 17, 20]`, the prime numbers are 3 and 17.
+	- For example, given a list `[2, 3, 10, 17, 20]`, the prime numbers are 2, 3 and 17.
 3. Capitalize all words in a list, using `map` function.
 	- Create a function which takes a string and returns capitalized string.
 	- Define a list containing several words/strings.
