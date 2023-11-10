@@ -65,7 +65,7 @@ Table of Contents
     [0, 2, 3]
     ```
 ## 2. Set Methods and Operations
-### `add()` method and `|` operator
+### `add()` method
 - We can use `add()` method to add an element into a set. But **the new element could be anywhere in the set** since sets don't keep order.
     ```python
     >>> universities = {'Rutgers', 'NYU', 'Princeton'}
