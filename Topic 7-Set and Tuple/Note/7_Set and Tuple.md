@@ -17,6 +17,7 @@ Table of Contents
 [5. Tuple assignment](#5-tuple-assignment)  
 [6. Variable-length argument tuple](#6-variable-length-argument-tuples)  
 [7. Lists and tuples](#7-lists-and-tuples)  
+    &emsp; [`zip()` function](#zip-function)  
 	&emsp; [`enumerate()` function](#enumerate-function)  
 [8. Practice questions](#8-practice-questions)
 
@@ -319,6 +320,7 @@ Table of Contents
 - Note: The function can take one or more arguments, but cannot take a list.
 
 ## 7. Lists and tuples
+### `zip()` function
 - `zip()` is a built-in function that takes two or more sequences and interleaves them. The name of the function refers to a zipper, which interleaves two rows of teeth.
 - Sometimes we would like to collect information for different items. For example, we have lists about County, City, and Zipcode. 
     ```python
