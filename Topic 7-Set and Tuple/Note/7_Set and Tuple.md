@@ -371,8 +371,8 @@ Table of Contents
     ```python
     universities = ["Princeton", "MIT", "Harvard", "Stanford"]
 
-    for ranking, university in enumerate(universities):
-        print(ranking, university)
+    for i, university in enumerate(universities):
+        print(i+1, university)
     ```
 
 ## 8. Practice questions
