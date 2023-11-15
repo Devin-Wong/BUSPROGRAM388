@@ -7,7 +7,7 @@ def square_list(x):
 def square(*args):
     return [i ** 2 for i in args]
 
-squares = square(2)
+squares = square(2, 3)
 print(squares)
 
 

@@ -7,7 +7,7 @@ Table of Contents
 [2. Set Methods and Operations](#2-set-methods-and-operations)  
 	&emsp; [`add()` method and `|` operator](#add-method-and--operator)  
 	&emsp; [`union()` method and `|` operator](#union-method-and--operator)  
-	&emsp; [`intersetion()` method and `&` operator](#intersetion-method-and--operator)  
+	&emsp; [`intersection()` method and `&` operator](#intersection-method-and--operator)  
     &emsp; [`difference()` method and `-` operator](#difference-method-and---operator)  
 [3. Modifying a Set](#3-modifying-a-set)  
 [4. Tuple](#4-tuple)  
@@ -100,8 +100,8 @@ Table of Contents
     >>> set_1|set_2|set_3
     {1, 2, 3, 4, 5, 6, 7}
     ```
-### `intersetion()` method and `&` operator
-- `intersetion()` computes the intersection of two or more sets.
+### `intersection()` method and `&` operator
+- `intersection()` computes the intersection of two or more sets.
 - `&` operator also computes the intersection.
     ```python
     >>> set_1 = {1, 2, 3} 
