@@ -378,10 +378,10 @@ Table of Contents
 ## 8. Practice questions
 
 
-1. We've provided you with a list of lottery players, and also with 4 random lottery numbers. The random lottery numbers are generated like this:
+1. We've provided you with a list of lottery players, and also with 6 random lottery numbers. The random lottery numbers are generated like this:
     ```python
     import random
-    lottery_numbers = set(random.sample(list(range(22)), 4))
+    lottery_numbers = set(random.sample(list(range(22)), 6))
     ```
     And the list of players we've given you are:
 
