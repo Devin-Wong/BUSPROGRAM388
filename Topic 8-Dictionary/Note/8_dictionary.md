@@ -149,7 +149,8 @@ Table of Contents
 	```
 
 ## 4. Practice questions
-1. Reverse lookup. The following dictionary shown the rosters of the three courses. We can easily check the student names each course has. Now we would like to do reverse lookup. That is, we would like to get a dictionary showing the courses that each student is taking. 
+1. Character counts. Given a string, try to obtain the counts of the characters in it (case insensitive). For example, given "Rutgers, RBS", the output should be the dictionary, {'T': 1, 'R': 3, 'B': 1, 'E': 1, ' ': 1, 'S': 2, 'U': 1, 'G': 1}.
+2. Reverse lookup. The following dictionary shown the rosters of the three courses. We can easily check the student names each course has. Now we would like to do reverse lookup. That is, we would like to get a dictionary showing the courses that each student is taking. 
 	```python
 	roster = {
 		'STATS_385': ['Jack', 'Anne', 'John', 'Peter'],
