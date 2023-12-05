@@ -15,7 +15,7 @@ Table of Contents
 - A dictionary is like a list, but more general.
 - In a list, there are values and corresponding indices. For example, in a list, `l = ['a', 'b', 'c']`, the values are  'a', 'b', and 'c', and the indices are 0, 1, 2, and 3.
 - In a dictionary, the indices can be (almost) any type.
-- A dictionary contains a collection of indices, which are call *keys*, and a collection of values. Each key is associated with a single value. 
+- A dictionary contains a collection of indices, which are called *keys*, and a collection of values. Each key is associated with a single value. 
 - The association of a key and a value is called *Key-value pair* or sometime an *item*.
 
 **Defining Dictionary**
