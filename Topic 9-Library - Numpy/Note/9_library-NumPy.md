@@ -120,11 +120,11 @@ Table of Contents
     data_1 = [1, 2, 3]
     data_2 = [11, 21, 31]
 
-    s = 0
+    l = []
     for i in range(len(data_1)):
-        s += data_1[i] + data_2[i]
+        l.append(data_1[i] + data_2[i])
 
-    print(s)
+    print(l)
     ```
 - However, with NumPy we can easily finish it.
     ```python
