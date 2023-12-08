@@ -24,7 +24,7 @@ mean = sum(nums)/len(nums)
 print(mean)
 
 # what is expectation of your revenue?
-earnings = [0, 10, 9.5, 20, 30, 50, 1000]
+earnings = [0, 5, 5, 10, 100, 100, 100000]
 mean = 0
 for i in range(len(prob)):
     m = prob[i] * earnings[i]
